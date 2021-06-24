@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,9 +16,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('user.homepage');
+Route::get('/test1', function () {
+    return view('user.homepage_1');
 });
+Route::get('/', function () {
+    return view('main');
+});
+
+//user
+Route::get('/create',[UserController::class,'create']);
+Route::post('/create',[UserController::class,'create_handling']);
+
 //student
 Route:: get('/student/create', [StudentController::class,'create']);
 Route:: get('/student/list', [StudentController::class,'getList']);

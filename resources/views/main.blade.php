@@ -8,8 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-<div>student - delete</div>
-<br>
-<a href="/homepage/1">Back</a>
+<div>
+    <div>
+        <a href="/test1">PHP laravel 22/6/2020</a>
+    </div>
+    <div>
+        <a href="/create">PHP laravel 25/6/2020</a>
+    </div>
+
+</div>
 </body>
 </html>

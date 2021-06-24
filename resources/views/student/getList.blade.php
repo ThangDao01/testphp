@@ -10,6 +10,6 @@
 <body>
 <div>student - getList</div>
 <br>
-<a href="/">Back</a>
+<a href="/homepage/1">Back</a>
 </body>
 </html>
