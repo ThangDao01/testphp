@@ -10,6 +10,6 @@
 <body>
 <h1>teacher - create</h1>
 <br>
-<a href="/">Back</a>
+<a href="/test1">Back</a>
 </body>
 </html>

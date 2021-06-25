@@ -10,6 +10,6 @@
 <body>
 <div>student - getById</div>
 <br>
-<a href="/homepage/1">Back</a>
+<a href="/test1">Back</a>
 </body>
 </html>

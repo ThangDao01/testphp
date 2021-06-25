@@ -10,6 +10,6 @@
 <body>
 <div>teacher - update</div>
 <br>
-<a href="/">Back</a>
+<a href="/test1">Back</a>
 </body>
 </html>

@@ -23,6 +23,25 @@ Route::get('/', function () {
     return view('main');
 });
 
+Route::get('/octopus/index1', function () {
+    return view('admin.layout');
+});
+Route::get('/octopus/index', function () {
+    return view('admin.index');
+});
+Route::get('/octopus/tables-advanced', function () {
+    return view('admin.list');
+});
+Route::get('/octopus/forms-advanced', function () {
+    return view('admin.form');
+});
+Route::get('/octopus/pages-calendar', function () {
+    return view('admin.calendar');
+});
+Route::get('/octopus/ui-elements-modals', function () {
+    return view('admin.ui-elements-modals');
+});
+
 //user
 Route::get('/create',[UserController::class,'create']);
 Route::post('/create',[UserController::class,'create_handling']);
